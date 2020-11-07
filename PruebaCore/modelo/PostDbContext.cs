@@ -25,7 +25,7 @@ namespace PruebaCore.modelo
             //En caso de que el contexto no este configurado, lo configuramos mediante la cadena de conexion
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseMySql("Server=localhost;Database=postefcore;Uid=root;Pwd=root;");
+                optionsBuilder.UseMySql("Server=127.0.0.1;Database=postefcore;Uid=root;Pwd=root;");
             }
         }
 
